@@ -27,7 +27,7 @@
       }
 
       .buttons {
-        button {
+        a {
           padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
@@ -38,6 +38,10 @@
           font-weight: 300;
           position: relative;
           z-index: 90;
+        }
+        a:nth-child(2) {
+          background: white;
+          color: black;
         }
       }
 

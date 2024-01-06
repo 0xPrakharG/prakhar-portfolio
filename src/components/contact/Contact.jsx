@@ -48,14 +48,13 @@ export default function Contact() {
   };
 
   return (
-    <motion.div
-      className="contact"
-      ref={ref}
-      variants={variants}
-      initial="initial"
-      whileInView="animate"
-    >
-      <motion.div variants={variants} className="textContainer">
+    <div className="contact" ref={ref}>
+      <motion.div
+        variants={variants}
+        initial="initial"
+        whileInView="animate"
+        className="textContainer"
+      >
         <motion.h1 variants={variants}>Let's work together</motion.h1>
         <motion.div variants={variants} className="item">
           <h2>Mail</h2>
@@ -115,6 +114,6 @@ export default function Contact() {
           {success && "Success"}
         </motion.form>
       </div>
-    </motion.div>
+    </div>
   );
 }

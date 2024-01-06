@@ -19,16 +19,16 @@ export default function Navbar() {
           Prakhar
         </motion.span>
         <div className="social">
-          <a href="#">
-            <FaLinkedin />
-          </a>
-          <a href="#">
+          <a href="https://github.com/0xprakharg">
             <FaGithub />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/0xprakharg/">
+            <FaLinkedin />
+          </a>
+          <a href="https://twitter.com/0xPrakharG">
             <FaXTwitter />
           </a>
-          <a href="#">
+          <a href="mailto:prakhargoyal.3014@gmail.com">
             <SiGmail />
           </a>
         </div>
